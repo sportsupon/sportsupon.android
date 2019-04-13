@@ -839,6 +839,43 @@
     xcode "^2.0.0"
     xmldoc "^0.4.0"
 
+"@react-native-firebase/app-types@6.0.0-alpha.2":
+  version "6.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app-types/-/app-types-6.0.0-alpha.2.tgz#7d1cf972cc4d51f281c5175712df2bd7d27450c3"
+  integrity sha512-Imw2tLg77VXahpromMc3v3Brq3zZzuWWhWWjhQqZylIra3fgS9rKY9bW+sCn3vPqA0DjxcsG26elQWbYysMv7w==
+
+"@react-native-firebase/app-types@6.0.0-alpha.3":
+  version "6.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app-types/-/app-types-6.0.0-alpha.3.tgz#4761112f38c39a59e869ac163717dad2952dfa2f"
+  integrity sha512-KleVrEkGsnUtwpWWy/C0k++KNVJDW+iCDvwdTx1002347BaOsdZEfc3o0SdTfd3AoaJzvurQpvCDTYUbXGHiMQ==
+
+"@react-native-firebase/app@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-0.0.4.tgz#2add629110fb0c422d10e20b4ca2a803e4e05c28"
+  integrity sha512-vtqGW2U4xygN27U1n1IQ5NWhIxp0xuwr24oZ+2M8asZQtXaoY/+kkratApycLvtetKoUDurNjp0oiMzb7dRdxg==
+  dependencies:
+    "@react-native-firebase/app-types" "6.0.0-alpha.2"
+    "@react-native-firebase/common" "6.0.0-alpha.2"
+    opencollective-postinstall "^2.0.1"
+
+"@react-native-firebase/auth@^6.0.0-alpha.3":
+  version "6.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-6.0.0-alpha.3.tgz#f33a395e7087bc55e3c2a22d55cd1e97c6d5aed8"
+  integrity sha512-KheXwtjsLs98TWVL6t7nH/S0sIh2VNLli3kZ/p84+OaNhF0xreIR/fzzHaV/nmVZCEMVs/1rye6+wn36xLwE9A==
+  dependencies:
+    "@react-native-firebase/app-types" "6.0.0-alpha.3"
+    "@react-native-firebase/common" "6.0.0-alpha.3"
+
+"@react-native-firebase/common@6.0.0-alpha.2":
+  version "6.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/common/-/common-6.0.0-alpha.2.tgz#8ee9ddc42df1c8c10350a17016024d409a42a741"
+  integrity sha512-ebPHIdyxZXqSYRaSAnFzwSOMQY/qn55aPa+1SJmcmn2QzaYEnBRUzU7zQ2XcKxSaCPCzvISx2X2+2jivXSuplQ==
+
+"@react-native-firebase/common@6.0.0-alpha.3":
+  version "6.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/common/-/common-6.0.0-alpha.3.tgz#d08bc5bd632ab250d9e9793fe71f283a4c71d46f"
+  integrity sha512-LNLhFCVTD06eJbCNA07T60oy5qC8IY75jgBBm7ynIoYAW5cpwk/QnhS5PHBsOu23UVL9Oqx1O1Tr+mzVIXXcGg==
+
 "@react-navigation/core@~3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.2.1.tgz#fd05c1cc405576c84aec57b6a15a09f649e79e0d"
@@ -4681,6 +4718,11 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+opencollective-postinstall@^2.0.0, opencollective-postinstall@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
+
 opn@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/opn/-/opn-3.0.3.tgz#b6d99e7399f78d65c3baaffef1fb288e9b85243a"
@@ -5129,6 +5171,14 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-native-firebase@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-firebase/-/react-native-firebase-5.3.1.tgz#cfd295f562249f6fcf5e3fb2c62894575ece2c7f"
+  integrity sha512-eOuSqIl+DZPNmN5ivSLgkEcsl5m0sXxttoPBn3bOHfI+apEd4I8F+9fcbHerUFUvLzesXmHR9locjhR6IJ+q3w==
+  dependencies:
+    opencollective-postinstall "^2.0.0"
+    prop-types "^15.6.2"
 
 react-native-gesture-handler@^1.1.0:
   version "1.1.0"

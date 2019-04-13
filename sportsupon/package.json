@@ -7,10 +7,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^0.0.4",
+    "@react-native-firebase/auth": "^6.0.0-alpha.3",
     "@types/node": "^11.13.0",
     "bugsnag-react-native": "^2.16.0",
     "react": "16.8.3",
     "react-native": "0.59.3",
+    "react-native-firebase": "^5.3.1",
     "react-native-gesture-handler": "^1.1.0",
     "react-navigation": "^3.6.1"
   },
@@ -44,7 +47,6 @@
       "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "testPathIgnorePatterns": [
       "\\.snap$",
       "<rootDir>/node_modules/"
