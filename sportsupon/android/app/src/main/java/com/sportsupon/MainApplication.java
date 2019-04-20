@@ -3,8 +3,8 @@ package com.sportsupon;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
-import io.invertase.firebase.modules.app.ReactNativeFirebaseAppPackage;
+/*import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
+import io.invertase.firebase.modules.app.ReactNativeFirebaseAppPackage;*/
 import com.bugsnag.BugsnagReactNative;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -27,8 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new ReactNativeFirebaseAuthPackage(),
-            new ReactNativeFirebaseAppPackage(),
+           /* new ReactNativeFirebaseAuthPackage(),
+            new ReactNativeFirebaseAppPackage(),*/
             BugsnagReactNative.getPackage(),
             new RNGestureHandlerPackage()
       );
