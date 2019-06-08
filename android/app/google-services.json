@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "382876160058",
+    "firebase_url": "https://sportsupon-7bd3c.firebaseio.com",
+    "project_id": "sportsupon-7bd3c",
+    "storage_bucket": "sportsupon-7bd3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382876160058:android:9c292b796652d2b9",
+        "android_client_info": {
+          "package_name": "com.sportsupon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382876160058-2751k8e3sc4dm6ge93ls9cn5j7i4b0p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClmgsq6STT3CgRjnnEW7VbgRToNZCLHbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382876160058-2751k8e3sc4dm6ge93ls9cn5j7i4b0p8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "382876160058-am85jkn5u9ngm1ca164mdksvuvui444h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sportsupon.sportsupon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
